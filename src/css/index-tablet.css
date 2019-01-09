@@ -1,0 +1,121 @@
+@media only screen and (max-width: 980px) {
+
+    body {
+        background: #B6DFF5!important;
+        padding-bottom: 55px;
+    }
+
+    .be-menu-bottom {
+        position: fixed;
+        bottom: 0;
+        background-color: white;
+        color: black;
+        display: block!important;
+        box-shadow: 4px 0 15px grey;
+    }
+
+    .be_Logo {
+        position: unset!important;
+
+        margin-left: calc(50% - 81px);
+        margin-top: 15px;
+        margin-bottom: 5px;
+
+        width: 162px;
+        height: 50px;
+
+        background-image: url("/images/becoming-small.png");
+
+        display: block;
+    }
+
+    .hidden {
+        display: none!important;
+    }
+
+    .theme {
+        display: none!important;
+    }
+
+    .be_Menu {
+        position: unset;
+
+        margin: 15px 40px 30px calc(50% - 175px);
+
+        width: 100%!important;
+        max-width: 350px;
+
+        border: none!important;
+
+        height: unset!important;
+        max-height: unset!important;
+
+        box-shadow: none!important;
+        border-radius: 20px!important;
+
+        z-index: 1;
+
+        display: block;
+    }
+
+    .be_CategoryMenu {
+        position: unset;
+
+        margin: 15px 40px 30px calc(50% - 175px);
+
+        width: 100%!important;
+        max-width: 350px;
+
+        border: none!important;
+
+        height: unset!important;
+        max-height: unset!important;
+
+        padding: 5px 5px 0 5px!important;
+
+        background: #B6DFF5!important;
+
+        z-index: 2;
+
+        display: block;
+    }
+
+    .be_CategoryItemView {
+        position: unset;
+
+        margin: 30px!important;
+
+        width: calc(100% - 60px)!important;
+        height: unset!important;
+        max-height: unset!important;
+
+        z-index: 3;
+        border-radius: unset;
+        background-color: white;
+
+        display: block;
+    }
+
+    .be_CategoryItemView * {
+        border: unset;
+        box-shadow: unset;
+    }
+
+    .be_CategoryItemView-paper {
+        padding: 10px 25px 15px 25px!important;
+    }
+}
+
+/*@media only screen and (min-width: 980px) and (max-width: 1350px) {*/
+
+    /*.be_CategoryItemView * {*/
+        /*border: none!important;*/
+        /*box-shadow: none!important;*/
+    /*}*/
+
+    /*.be_CategoryItemView {*/
+        /*width: calc(100% - 650px)!important;*/
+        /*height: 100%!important;*/
+        /*max-height: none!important;*/
+    /*}*/
+/*}*/

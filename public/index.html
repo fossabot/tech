@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:title" content="Becoming.lu"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://becoming.lu"/>
+    <meta property="og:image" content="http://becoming.lu/images/becoming.png"/>
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+    <link rel="stylesheet" type="text/css"
+          href="%PUBLIC_URL%/cookieconsent2/3.1.0/cookieconsent.min.css"/>
+    <script src="%PUBLIC_URL%/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script src="%PUBLIC_URL%/cookieconsent2/3.1.0/cookie-init.js"></script>
+    <!--
+    Notice the use of %PUBLIC_URL% in the tags above.
+    It will be replaced with the URL of the `public` folder during the build.
+    Only files inside the `public` folder can be referenced from the HTML.
+
+    Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+    work correctly both with client-side routing and a non-root public URL.
+    Learn how to configure a non-root public URL by running `npm run build`.
+  -->
+    <title>Becoming.lu</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76337525-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-76337525-2');
+    </script>
+
+</head>
+<body>
+<noscript>
+    Becoming.lu is built on JavaScript, that means you need to enable it.
+</noscript>
+
+<div id="root">
+
+    <!-- keep this div, otherwise the theme will be hidden and overlap the menu-->
+    <div></div>
+
+    <div>
+        <div class="outdated-browsers">
+            <h3>If you see this message, it is very likely that you use a unsupported browser.</h3>
+            <h4>We are very sorry for that, so far we can afford to develop for modern browsers only.</h4>
+            <p>Here's a list of most secure and up to date browsers on the planet. They are free, go grab any of them!</p>
+
+            <ul>
+                <li>
+                    <a href="https://www.mozilla.org/ro/firefox/new/" title="Get Firefox" rel="noopener noreferrer nofollow">Get Firefox</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/chrome/" title="Get Chrome" rel="noopener noreferrer nofollow">Get Chrome</a>
+                </li>
+                <li>
+                    <a href="https://vivaldi.com/download/" title="Get Vivladi" rel="noopener noreferrer nofollow">Get Vivaldi</a>
+                </li>
+                <li>
+                    <a href="https://www.opera.com/download" title="Get Opera" rel="noopener noreferrer nofollow">Get Opera</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* https://stackoverflow.com/a/38977324 */
+* {
+    -webkit-overflow-scrolling: touch;
+}
+/*---*/
+
+
+:root {
+    --margin-top-large-screen: 210px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #3f3f3f;
+    background: #B6DFF5;
+    font-size: 16px;
+
+    min-width: 345px;
+}
+
+.hand-cursor {
+    cursor: pointer;
+}
+
+.outdated-browsers {
+    margin: 20px;
+}
+
+.outdated-browsers ul li {
+    margin-bottom: 20px;
+}
+
+/******************************************/
+
+.be-CardHeader-rounded-corners {
+    border-radius: 20px!important;
+    box-shadow: none!important;
+}
+
+.be-CardHeader-not-selected {
+    background: url("/images/right-arrow-light.png") no-repeat right;
+    background-blend-mode: lighten;
+}
+
+.be-CardHeader-selected {
+    background: url("/images/right-arrow.png") no-repeat right;
+}
+
+.be_margin-bottom-30px {
+    margin-bottom: 30px;
+}
+
+.be_margin-left-30px {
+    margin-left: 30px;
+}
+
+.be_margin-left-10px {
+    margin-left: 10px;
+}
+
+.be_Logo {
+    position: fixed;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    width: 195px;
+    height: 174px;
+
+    background-image: url("/images/becoming.png");
+    background-repeat: no-repeat;
+}
+
+/******************************************/
+
+.be_Menu {
+    width: 230px;
+    background-color: white;
+    border: 1px;
+
+    max-height: calc(100% - 245px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    box-shadow: none;
+    border-radius: 0 20px 20px 0;
+
+    position: fixed;
+    margin-left: 0;
+    margin-top: var(--margin-top-large-screen);
+}
+
+.be_Menu a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+/******************************************/
+
+.be_Category-selected {
+    background-color: #0074E8 !important;
+    color: white !important;
+}
+
+.be_Category-selected svg {
+    color: white !important;
+}
+
+.be_Category-selected span {
+    color: white !important;
+}
+
+/******************************************/
+
+.be_CategoryMenu {
+    position: fixed;
+    margin-left: 250px;
+    margin-top: 20px;
+
+    width: 370px;
+    border: 1px;
+
+    max-height: calc(100% - 25px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-right: 5px;
+}
+
+.be_CategoryMenu-image {
+    width: 370px;
+    height: 200px;
+}
+
+.be_CategoryMenu a {
+    text-decoration: none;
+    color: #3f3f3f!important;
+}
+
+.be_CategoryMenu a span{
+    color: #3f3f3f;
+}
+
+/******************************************/
+
+.be_CategoryItemView {
+    position: fixed;
+    margin-left: 645px;
+    margin-top: 20px;
+    margin-right: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: calc(100% - 25px);
+    width: 700px;
+    /*line-height: 1.6;*/
+    /*font-stretch: semi-condensed;*/
+    /*letter-spacing: 0.3px;*/
+    /*font-size: medium;*/
+
+    border-radius: 20px!important;
+    box-shadow: none!important;
+    padding: 0!important;
+}
+
+.be_CategoryItemView-paper {
+    box-shadow: none!important;
+    padding: 20px 25px 15px 25px!important;
+
+    border-radius: 20px!important;
+}
+
+.be-menu-bottom {
+    display: none!important;
+}

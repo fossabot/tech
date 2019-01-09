@@ -1,0 +1,44 @@
+{
+  "name": "becoming.tech",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://becoming.tech",
+  "author": "Rodislav MOLDOVAN",
+  "scripts": {
+    "start": "PORT=3003 react-scripts start",
+    "build": "react-scripts build && react-snap && yarn sitemap",
+    "snap": "react-snap",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "og": "node scripts/generate-og-tags.js",
+    "elastic": "node scripts/push-to-elastic.js",
+    "sitemap": "node scripts/generate-sitemap-xml.js"
+  },
+  "reactSnap": {
+    "inlineCss": true,
+    "destination": "build/og",
+    "puppeteerArgs": ["--no-sandbox"]
+  },
+  "dependencies": {
+    "@material-ui/core": "3.7.0",
+    "@material-ui/icons": "3.0.1",
+    "mobx": "5.8.0",
+    "mobx-react": "5.4.3",
+    "prop-types": "15.6.2",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.1",
+    "rxjs": "6.3.3"
+  },
+  "devDependencies": {
+    "flow-bin": "0.89.0",
+    "react-snap": "1.23.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,135 @@
+@keyframes sun-spin
+{
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes motion-cloud-small {
+    0% {
+        left: 66%;
+        opacity: 0;
+    }
+    50% {
+        left: 67%;
+        opacity: 1;
+    }
+    100% {
+        left: 68%;
+        opacity: 0;
+    }
+}
+
+@keyframes motion-cloud-medium {
+    0% {
+        left: 27%;
+        opacity: 0;
+    }
+    50% {
+        left: 29%;
+        opacity: 1;
+    }
+    100% {
+        left: 31%;
+        opacity: 0;
+    }
+}
+
+@keyframes motion-cloud-big-2 {
+    0% {
+        left: 40%;
+        opacity: 0;
+    }
+    50% {
+        left: 42%;
+        opacity: 1;
+    }
+    100% {
+        left: 44%;
+        opacity: 0;
+    }
+}
+
+@keyframes motion-cloud-big {
+    0% {
+        left: 56%;
+        opacity: 0;
+    }
+    50% {
+        left: 58%;
+        opacity: 1;
+    }
+    100% {
+        left: 60%;
+        opacity: 0;
+    }
+}
+
+@keyframes motion-balloon {
+    0% {
+        bottom: 280px;
+    }
+    30% {
+        bottom: 298px;
+    }
+    70% {
+        bottom: 290px;
+    }
+    100% {
+        bottom: 280px;
+    }
+}
+
+@keyframes motion-plane {
+    0% {
+        left: -60px;
+        transform:rotate(15deg);
+    }
+
+    25% {
+        left: 48%;
+    }
+
+    80% {
+        left: 50%;
+    }
+
+    100% {
+        left: 110%;
+        transform:rotate(15deg);
+    }
+}
+
+
+@keyframes motion-star-small {
+    0% {
+        background-size: 100%;
+        opacity: 0.05;
+    }
+    50% {
+        background-size: 130%;
+        opacity: 1;
+    }
+    100% {
+        background-size: 100%;
+        opacity: 0.05;
+    }
+}
+
+/*@media only screen and (max-height: 1024px) {*/
+    /*@keyframes motion-plane {*/
+        /*0% {*/
+            /*top: 110%;*/
+            /*right: 100%;*/
+        /*}*/
+
+        /*70% {*/
+            /*top: 400px;*/
+            /*right: 50%;*/
+        /*}*/
+        /*100% {*/
+            /*top: 100px;*/
+            /*right: -100px;*/
+        /*}*/
+    /*}*/
+/*}*/

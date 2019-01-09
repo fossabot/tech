@@ -1,0 +1,100 @@
+.bm-container {
+    padding: 18px 10px 10px 15px;
+    border-radius: 8px;
+
+    color: black;
+    margin-bottom: 25px;
+}
+
+.bm-img {
+   margin-top: 15px;
+}
+
+.bm-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bm-a a {
+    color: #0d6ec4;
+}
+
+.bm-container.yellow {
+    background-color: #FAF8EA;
+}
+
+.bm-container.blue {
+    background-color: #E1EBEE;
+}
+
+.bm-container.red {
+    background-color: #F7EBE7;
+}
+
+.bm-container.green {
+    background-color: #EAF3E8;
+}
+
+.bm-line {
+    display: flex;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+
+.bm-line.address {
+    margin-top: 10px;
+}
+
+.bm-line.no-flex {
+    display: inline-flex;
+}
+
+.width-50prcnt {
+    width: 50%!important;
+}
+
+.border-left {
+    border-left: 2px solid white;
+    padding-left: 10px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.flex-box .left {
+    align-self: flex-start;
+    margin-right: 5px;
+}
+
+.flex-box .right {
+    align-self: flex-start;
+    margin-right: 5px;
+}
+
+.icon {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 2px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.icon.location {
+    background-image: url("/images/icon/pin.svg");
+}
+
+.icon.phone {
+    background-image: url("/images/icon/phone.svg");
+}
+
+.icon.bus {
+    background-image: url("/images/icon/bus.svg");
+}
+
+.icon.clock {
+    background-image: url("/images/icon/clock.svg");
+}

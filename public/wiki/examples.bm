@@ -1,0 +1,66 @@
+title-big
+Cookies
+
+title-small
+Cookies
+
+text
+basic text
+with multiple lines
+
+info
+first line
+second line
+third line
+forth line
+fifth line
+
+list
+first line
+ - sub item first line
+ - sub item second line
+second line
+third line
+forth line
+fifth line
+
+link
+A link title
+https://www.wikihow.com/View-Cookies
+/wiki/logo/wiki-how.png
+
+working-hours
+DELHAIZE Walferdange
+/wiki/logo/cns.png
+https://delhaize.lu
+with a very long address, with a very long address, with a very long address, with a very long address, with a very long address, with a very long address
+44 78 77
+237, 18, 5
+Lundi - Vendredi : 9:00 - 18:00
+Samedi : 9:00 - 16:00
+Dimanche : 9:00 - 16:00
+
+working-hours
+with url to working hours rather than text
+-
+https://www.delhaize.lu
+https://www.delhaize.lu/fr/nos-magasins
+(+352) 30 99 11
+-
+Monday - Saturday : 07:30 - 20:00
+Sunday : 07:30 - 13:00
+
+app
+App title
+App description
+https://play.google.com/store/apps/details?id=de.hafas.android.cdt
+https://itunes.apple.com/lu/app/mobiliteit-lu/id434829995?l=en&mt=8
+/wiki/logo/mobiliteit.png
+
+facebook
+Expat Notes on Lux
+https://www.facebook.com/ExpatNotesLux/
+
+youtube
+How it works
+https://www.youtube.com/embed/f-GtkYGVEDc

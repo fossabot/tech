@@ -1,0 +1,27 @@
+.bm_short-number {
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    color: #3f3f3f;
+}
+
+.bm_short-number .number{
+    margin-right: 10px;
+    width: 162px;
+    height: 76px;
+    background-color: #E4E4E4;
+    border-radius: 6px;
+    text-align: center;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 57px;
+    color: #3f3f3f;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.bm_short-number .label{
+    align-self: center;
+}

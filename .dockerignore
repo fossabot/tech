@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/
+elastic/
+node_modules/
+public/
+scripts/
+src/
+
+.flowconfig
+.gitignore
+*.iml
+package.json
+package-lock.json

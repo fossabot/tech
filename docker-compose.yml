@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  becoming:
+    image: rodislav/becoming
+    container_name: becoming
+    ports:
+    - 80:80
+    - 443:443
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+    - /etc/letsencrypt:/etc/letsencrypt
+    - /etc/ssl:/etc/ssl

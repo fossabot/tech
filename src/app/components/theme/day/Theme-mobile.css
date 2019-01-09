@@ -1,0 +1,57 @@
+@media only screen and (max-width: 980px) {
+    .be_plane {
+        background: none!important;
+    }
+
+    .be_theme-image-left-right {
+        background: none!important;
+    }
+
+    .be_theme-image-center {
+        background: none!important;
+    }
+
+    .be_theme-sun {
+        background: none!important;
+    }
+
+    .be_theme-balloon {
+        background: none!important;
+    }
+
+    .be_theme-cloud-big {
+        background: none!important;
+    }
+
+    .be_theme-cloud-big-2 {
+        background: none!important;
+    }
+
+    .be_theme-cloud-medium {
+        background: none!important;
+    }
+
+    .be_theme-cloud-small {
+        background: none!important;
+    }
+
+    .be_univers {
+        background: none!important;
+    }
+
+    .be_star-small {
+        background: none!important;
+    }
+
+    .be_star-small-top-corner {
+        background: none!important;
+    }
+
+    .be_star-small-bottom-corner {
+        background: none!important;
+    }
+
+    .be_star-big {
+        background: none!important;
+    }
+}

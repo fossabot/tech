@@ -1,0 +1,12 @@
+
+.bm_text {
+    /*text-indent: 35px;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #3F3F3F;
+
+    line-height: 24px;
+
+    margin-bottom: 10px;
+}

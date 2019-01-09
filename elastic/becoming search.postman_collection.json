@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "4e190390-bcdd-40e3-9ea9-aa269362e814",
+		"name": "becoming search",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "put a dummy doc",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "rodi",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\" : \"kimchy\",\n    \"post_date\" : \"2009-11-15T14:12:12\",\n    \"message\" : \"trying out Elasticsearch\"\n}"
+				},
+				"url": {
+					"raw": "http://51.158.66.240/becoming/_doc/9999",
+					"protocol": "http",
+					"host": [
+						"51",
+						"158",
+						"66",
+						"240"
+					],
+					"path": [
+						"becoming",
+						"_doc",
+						"9999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "becoming/_search?q=content:\"*taxi*\"",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"user\" : \"kimchy\",\n    \"post_date\" : \"2009-11-15T14:12:12\",\n    \"message\" : \"trying out Elasticsearch\"\n}"
+				},
+				"url": {
+					"raw": "http://51.158.66.240/becoming/_search?q=content:\"*taxi*\"",
+					"protocol": "http",
+					"host": [
+						"51",
+						"158",
+						"66",
+						"240"
+					],
+					"path": [
+						"becoming",
+						"_search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "content:\"*taxi*\""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
